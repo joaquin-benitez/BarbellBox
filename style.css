@@ -40,20 +40,22 @@ nav.a{
 .nav_ul{
     display: flex;
     align-items: flex-end;
+    list-style-type: none;
 }
 
 .nav_li{
     color:#09458a;
     padding: 12px;
-    display: flex;
+    
+    
 }
 
 .nav_li a{
     color: #09458a;
     text-decoration: none;
-    
+       
 }
-
+ 
 
 
 .main{
@@ -62,8 +64,8 @@ nav.a{
 }
 
 .galeria-imagenes{
-    margin: 5.8% 0;
-    width: 100%;
+    margin: 2rem 0;
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -72,9 +74,8 @@ nav.a{
     "image3 image4"
     "image5 image6";
     
-
-    justify-content: center;
-    align-items: center;     
+     place-items:center;
+       
 }
 
 .image-container{
