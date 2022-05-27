@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-weight: 100;
+    
+}
+
+body{
+    background-color: #77b0f1;
+    font-family: lobster, cursive;
+}
+
+.logobarbell{
+    width: 75px;
+    height: 75px;
+    border: 1px solid #610505;
+    margin-top: 4px;
+}
+
+header{
+    width: 100%;
+    background-color: #1f82f3;
+    top: 0%;
+    position: sticky;
+    
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav.a{
+    margin-top: 2px;
+}
+
+.nav_ul{
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav_li{
+    color:#09458a;
+    padding: 12px;
+    display: flex;
+}
+
+.nav_li a{
+    color: #09458a;
+    text-decoration: none;
+    
+}
+
+
+
+.main{
+    width: 100%;
+    display: flexbox;
+}
+
+.galeria-imagenes{
+    margin: 5.8% 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "image1 image2"
+    "image3 image4"
+    "image5 image6";
+    
+
+    justify-content: center;
+    align-items: center;     
+}
+
+.image-container{
+    margin: 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.ejercicio{
+    width: 480px;
+    height: 480px;
+}
+
+
+.quienessomos{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.quienessomos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.quienessomos-nombre{
+    
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.nombre{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #610505;
+    display: flex;
+    justify-content: center;
+   
+} 
+
+.descripcion{
+    color: #09458a;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ 
+  
+
+.actividades{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.levantamiento{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #610505;
+    display: flex;
+    justify-content: center;
+}
+
+.crossfit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #610505;
+    display: flex;
+    justify-content: center;
+}
+
+.staff{
+    
+    margin-bottom: 15px;
+    padding-top: 80px;
+    
+    
+}
+
+.staff1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: #610505;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descripcion-profes{
+    color: #09458a;
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-photo-staff{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    
+}
+
+.photo-profes{
+    width: 480px;
+    height: 480px;
+    
+}
+
+
+.inscripcion{
+    padding-top: 60px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #09458a;
+    
+}
+
+.inscripcion-container{
+    padding: 10px;
+    border:3px solid #09458a;
+    border-radius: 16px;
+    background-color: #93bdec ;
+}
+
+.form_imput{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid #09458a;
+    background-color: aliceblue;
+    color: #09458a;
+}
+
+
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.iframe{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.maps{
+    width: 320px;
+    height: 320px;
+
+}
+
+.spotify{
+    width: 320px;
+    height: 320px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    background-color: #1f82f3 ;
+    color: #09458a;
+    
+    
+}
+
+.contacto{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+}
+
