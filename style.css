@@ -10,7 +10,7 @@
 body{
     background-color: #77b0f1;
     font-family: lobster, cursive;
-}
+ }
 
 .logobarbell{
     width: 75px;
@@ -63,7 +63,7 @@ nav.a{
     display: flexbox;
 }
 
-.galeria-imagenes{
+/* .galeria-imagenes{
     margin: 2rem 0;
 
     display: grid;
@@ -76,6 +76,11 @@ nav.a{
     
      place-items:center;
        
+} */
+
+.galeria-imagenes{
+    justify-content: center;
+    z-index: -1;
 }
 
 .image-container{

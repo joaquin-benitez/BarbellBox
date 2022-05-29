@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    
+
     <title>BarbellBox</title>
-    
+
     <link rel="icon" href="multimedia/logo.ico">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 <body>
@@ -23,7 +24,7 @@
            <a href="index.html" class="logo"><img class="logobarbell" src="multimedia/logo.ico" alt="LogoBarbellBox"></a>
 
            <ul class="nav_ul">
-               
+
                <li class="nav_li"><a href="#quienessomos">Quienes Somos</a></li>
                <li class="nav_li"><a href="#actividades">Actividades</a></li>
                <li class="nav_li"><a href="#staff">Staff</a></li>
@@ -34,14 +35,14 @@
     </header>
     <!-- fin de header -->
 
-    
+
 
     <!-- main -->
    <main class="main">
-     <!-- section 1 galeria de imagenes (carrusel) --> 
+     <!-- section 1 galeria de imagenes (carrusel) -->
             <section class="galeria-imagenes">
                 
-                <div class="image-container">
+                <!-- <div class="image-container">
                     <img class="ejercicio image1" src="multimedia/imagenes/discos.jpg" alt="Ejercicio1">
                 </div>
                 <div class="image-container">
@@ -58,6 +59,37 @@
                 </div>
                  <div class="image-container">
                     <img class="ejercicio image6" src="multimedia/imagenes/squat2.jpg"  alt="Ejercicio6">
+                </div> -->
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="multimedia/imagenes/discos.jpg" class="d-block w-75 h-75" alt="Ejercicio1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/imagenes/estocada.webp" class="d-block w-75 h-75" alt="Ejercicio2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/imagenes/press.jpg" class="d-block w-75 h-75" alt="Ejercicio3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/imagenes/snatch.jpg" class="d-block w-75 h-75" alt="Ejercicio4">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/imagenes/teen.webp" class="d-block w-75 h-75" alt="Ejercicio5">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="multimedia/imagenes/squat2.jpg" class="d-block w-75 h-75" alt="Ejercicio6">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
             </section>
@@ -72,7 +104,7 @@
 
                 <div class="quienessomos-descripcion">
                     <p class="descripcion">
-                       
+
                         Somos un lugar donde todos seran bienvenidos y se sentiran cómodos.<br>
                         El objetivo sera mejorar tanto el cuerpo como la mente,<br>
                         disfrutando el proceso,dejanto todo y fomentando el compañerismo.<br>
@@ -81,8 +113,8 @@
                     </p>
                 </div>
             </div>
-                
-                
+
+
 
 
             </section>
@@ -106,10 +138,10 @@
                         </div>
                 </div>
 
-                <div class="actividad2">      
+                <div class="actividad2">
 
                        <h2 class="crossfit">CrossFit</h2>
-                          
+
                         <p class="descripcion">
                              Un programa para todos los niveles, orientado a la mejora de la composición corporal y la salud,<br>
                              a través de ejercicios que utilizan el propio peso del cuerpo asi como tambien la utilizacion de diferentes elementos.<br>
@@ -121,7 +153,7 @@
     </main>
     <!-- fin de section 3 -->
     <!-- fin de main -->
-    
+
     <article>
      <!-- section 4 staff -->
         <section class="staff" id="staff">
@@ -133,7 +165,7 @@
             <div class="container-photo-staff">
 
                 <img class="photo-profes" src="multimedia/imagenes/willy.jpg" alt="profe willy riera" name="Profe Willy Riera">
-            
+
 
                 <img class="photo-profes" src="multimedia/imagenes/sol.jpg" alt="profe sol riera" name="Profe Sol Riera">
 
@@ -148,15 +180,15 @@
         <section class="inscripcion" id="inscripcion">
             <div class="inscripcion-container">
                 <div class="texto-inscripcion">
-                    
+
                     <h3 class="pregunta">¿Suena interesante?</h3>
-                    
-                    
+
+
                     <p class="texto-form">
                      Rellena este formulario y te contactaremos<br>
                      para coordinar una clase gratis<br>
                     </p>
-                    
+
                 </div>
 
                 <div class="form_container">
@@ -168,7 +200,7 @@
                                          <input class="form_imput" type="tel" name="Telefono" placeholder="Telefono/Celular" required>
                                          <input class="form_imput" type="submit" required>
                                     </div>
-            
+
                     </form>
                 </div>
             </div>
@@ -186,7 +218,7 @@
                 </div>
 
          </section>
-    
+
     </article>
     <!-- fin de section 6 -->
     <!-- fin de article -->
@@ -194,7 +226,7 @@
     <!-- footer -->
     <footer>
             <ul class="contacto" id="contacto">
-                
+
                 <li class="gmail">
                     <img src="multimedia/gmail.png" width="25" height="25" alt="gmail" title="Gmail"> barbellbox@gmail.com
                 </li>
@@ -209,6 +241,8 @@
             </ul>
     </footer>
     <!-- fin de footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 
 </body>
 </html>
