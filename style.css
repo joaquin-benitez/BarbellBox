@@ -2,35 +2,88 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    text-decoration: none;
+    list-style: none;
     font-weight: 100;
     
 }
 
 body{
-    background-color: #77b0f1;
+    background-color: #5f5f5f;
     font-family: lobster, cursive;
+    
+ }
+
+ a, li{
+     color: #fff ;
+     text-decoration: none;
+     list-style-type: none;
+
  }
 
 .logobarbell{
     width: 75px;
-    height: 75px;
-    border: 1px solid #610505;
+    border: 1px solid #1f82f3;
     margin-top: 4px;
 }
 
 header{
     width: 100%;
-    background-color: #1f82f3;
+    background-color: #222;
     top: 0%;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    z-index: 20;
+   
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-menu li{
+    margin-right: 1.5rem;
     
 }
 
-.nav{
+.nav-menu a:hover{
+    color: #1f82f3;
+}
+.nav-menu li:last-child{
+    background-color: #1f82f3;
+    border: 2px solid #1f82f3;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+
+}
+
+.nav-menu li:last-child:hover{
+    background: transparent;
+    border: 2px solid #93bdec;
+}
+
+
+/* .nav{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a :hover {
+    color: #61a5f3;
+
+}
+
+.nav li :last-child{
+    background-color: #0a78f7;
+    border: 2px solid #0a78f7;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
 }
 
 nav.a{
@@ -54,7 +107,7 @@ nav.a{
     color: #09458a;
     text-decoration: none;
        
-}
+} */
  
 
 
@@ -80,16 +133,20 @@ nav.a{
 
 .galeria-imagenes{
     justify-content: center;
-    z-index: -1;
+   
 }
 
-.image-container{
+.carousel-bt{
+    height: 680px;
+}
+
+/* .image-container{
     margin: 2px;
     display: grid;
     justify-content: center;
     align-items: center; 
 
-}
+} */
 
 .ejercicio{
     width: 480px;
@@ -130,7 +187,7 @@ nav.a{
 } 
 
 .descripcion{
-    color: #09458a;
+    color: #fff;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -187,7 +244,7 @@ nav.a{
 }
 
 .descripcion-profes{
-    color: #09458a;
+    color: #fff;
     font-size: 20px;
     margin-bottom: 15px;
     display: flex;
@@ -286,8 +343,8 @@ footer{
     width: 100%;
     padding: 10px 20px;
     margin: 20px 0 0 0;
-    background-color: #1f82f3 ;
-    color: #09458a;
+    background-color: #222 ;
+    
     
     
 }
