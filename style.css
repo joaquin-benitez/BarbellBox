@@ -67,6 +67,7 @@ header{
 }
 
 
+
 /* .nav{
     width: 100%;
     display: flex;
@@ -113,7 +114,7 @@ nav.a{
 
 .main{
     width: 100%;
-    display: flexbox;
+    
 }
 
 /* .galeria-imagenes{
@@ -131,10 +132,6 @@ nav.a{
        
 } */
 
-.galeria-imagenes{
-    justify-content: center;
-   
-}
 
 .carousel-bt{
     height: 680px;
@@ -149,10 +146,9 @@ nav.a{
 } */
 
 .ejercicio{
-    width: 480px;
-    height: 480px;
+    margin-top: 15px;
+    
 }
-
 
 .quienessomos{
     width: 100%;
