@@ -25,6 +25,7 @@ body{
     width: 75px;
     border: 1px solid #1f82f3;
     margin-top: 4px;
+    margin-right: 3rem;
 }
 
 .nav{
@@ -203,6 +204,7 @@ body{
 .pregunta{
     display: flex;
     justify-content: center;
+    color: #610505;
 }
 
 .texto-form{
