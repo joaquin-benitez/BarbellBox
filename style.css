@@ -253,12 +253,6 @@ footer{
     background: linear-gradient(to top, #0074f8, #d1d1d1);       
 }
 
-@media screen and (max-width: 420px){
-    footer{
-        display: block;
-    }
-    
-}
 
 .contacto{
         display: flex;
