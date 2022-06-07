@@ -164,13 +164,13 @@
 
     <article>
      <!-- section 4 staff -->
-        <section class="staff text-center" id="staff">
-            <div class="staff1 agrandar">
+        <section class="staff" id="staff">
+            <div class="staff1 agrandar text-center">
                 Staff
             </div>
-            <p class="descripcion-profes">Nuestros profes Willy Riera y Sol Riera seran los encargados de llevar los entrenamientos y sacar tu maximo potencial en cada clase.</p>
+            <p class="descripcion-profes text-center">Nuestros profes Willy Riera y Sol Riera seran los encargados de llevar los entrenamientos y sacar tu maximo potencial en cada clase.</p>
 
-            <div>
+            <div class=contenedor-img-profes>
 
                 <img class="photo-profes" src="multimedia/imagenes/willy.jpg" alt="profe willy riera" name="Profe Willy Riera">
 
@@ -185,9 +185,9 @@
     <!-- fin de section 4 -->
 
     <!-- section 5 Inscripcion -->
-        <section class="row justify-content-center align-items-center inscripcion-container">
+        <section>
             
-                <div class="texto-inscripcion col-12 " id="inscripcion">
+                <div class="texto-inscripcion" id="inscripcion">
 
                     <h3 class="pregunta agrandar">¿Suena interesante?</h3>
 
@@ -198,7 +198,33 @@
                     </p>
 
                 </div>
-                <form class="g-3 col-md-4">
+                <div class="form-conteiner">
+                  <form class="form">
+                      <div>
+                          <input type="text" class="form-input" placeholder="Nombre y Apellido" >
+                      </div>
+                      <div>
+                          <input type="email" class="form-input" placeholder="Email">
+                      </div>
+                      <div class="form-section">
+                          <textarea class="form-input" placeholder="Escriba Su Mensaje"></textarea>
+                      </div>
+                      <div class="form-section">
+                          <input type="submit" class="form-input">
+                      </div>
+                  </form>
+                  
+                </div>
+
+
+
+
+
+
+
+
+                <!-- <form class="g-3 col-md-4">
+                  <div class="row">
                     <div class="col-12 ">
                       <label for="validationDefault01" class="form-label">Nombre</label>
                       <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
@@ -221,7 +247,8 @@
                     <div class="col-12 ">
                       <button class="btn btn-primary" type="submit">Enviar</button>
                     </div>
-                  </form>
+                  </div>
+                </form> -->
         </section>
     <!-- fin de section 5 -->
 
@@ -243,17 +270,17 @@
 
     <!-- footer -->
     <footer>
-            <ul class="contacto row text-center align-items-center" id="contacto">
+            <ul class="contacto row align-items-center" id="contacto">
 
-                <li class="gmail col-sm-3">
+                <li class="gmail col-md-3">
                     <img src="multimedia/gmail.png" width="25" height="25" alt="gmail" title="Gmail"> barbellbox@gmail.com
                 </li>
 
-                <li class="instagram col-sm-3">
+                <li class="instagram col-md-3">
                     <a href="https://www.instagram.com/barbell.box/" target="_blank"><img src="multimedia/instagram.png" width="25" height="25" alt="instagram icono" title="Instagram"></a>
                 </li>
 
-                <li class="whatsapp col-sm-3">
+                <li class="whatsapp col-md-3">
                     <img  src="multimedia/wps.png" width="25" height="25" alt="whatsapp icono" title="Whatsapp"> +54 3442 471515
                 </li>
             </ul>
