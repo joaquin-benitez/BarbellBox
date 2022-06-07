@@ -306,18 +306,6 @@ body{
     background: #1f82f3;
 }
 
-/* .form_imput{
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    border-bottom: 3px solid #09458a;
-    background-color: aliceblue;
-    color: #09458a;
-} */
-
-
-
 .pregunta{
     display: flex;
     justify-content: center;
