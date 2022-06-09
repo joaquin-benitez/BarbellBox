@@ -1,0 +1,23 @@
+@import "components/header";
+@import "components/main";
+@import"base/colors";
+@import"base/listas";
+@import"base/extends";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 100;
+    
+}
+
+body{
+    background-color: #d1d1d1;
+    font-family: lobster, cursive;
+    overflow-x: hidden;  
+ }
