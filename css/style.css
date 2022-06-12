@@ -30,7 +30,7 @@ header .link:hover {
   background-color: #ffffff;
 }
 
-main .crossfit, main .levantamiento, main .actividades, main .descripcion, main .nombre, main .quienessomos-nombre, main .quienessomos-container, main .quienessomos {
+article .texto-form, main .crossfit, main .levantamiento, main .actividades, main .descripcion, main .nombre, main .quienessomos-nombre, main .quienessomos-container, main .quienessomos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,12 +57,6 @@ main .nombre {
   font-size: 50px;
   color: #610505;
 }
-main .agrandar {
-  transition: all 0.6s;
-}
-main .agrandar:hover {
-  transform: scale(1.5);
-}
 main .descripcion {
   color: #222;
   font-size: 22px;
@@ -85,7 +79,176 @@ main .crossfit {
   color: #610505;
 }
 
-main .quienessomos, main .quienessomos-container, main .quienessomos-nombre, main .nombre, main .descripcion, main .actividades, main .levantamiento, main .crossfit {
+article .texto-form, main .quienessomos, main .quienessomos-container, main .quienessomos-nombre, main .nombre, main .descripcion, main .actividades, main .levantamiento, main .crossfit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article .staff {
+  margin-bottom: 15px;
+  padding-top: 80px;
+}
+article .staff1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: #610505;
+  /* display: flex;
+  justify-content: center; */
+}
+article .descripcion-profes {
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 15px;
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+}
+article .contenedor-img-profes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article .photo-profes {
+  width: 460px;
+  height: 460px;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 550px) {
+  article .photo-profes {
+    width: 320px;
+    height: 320px;
+  }
+}
+article .inscripcion-container {
+  margin-top: 16rem;
+  margin-bottom: 3rem;
+}
+article .form-conteiner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #222;
+  margin: 10rem 15rem;
+  padding: 20px;
+  border: 15px solid #000;
+  outline: 3px solid #610505;
+}
+@media screen and (max-width: 900px) {
+  article .form-conteiner {
+    width: 100%;
+    margin: auto;
+  }
+}
+article .form {
+  min-width: 300px;
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+  order: 5;
+}
+article .form-input:focus {
+  background: linear-gradient(to bottom, transparent, #111);
+  outline: none;
+  border-bottom: 3px solid #1f82f3;
+}
+article .form-input {
+  width: 100%;
+  padding: 7px;
+  margin: 6px 0;
+  border: none;
+  border-bottom: 3px solid #1f82f3;
+  background: transparent;
+  color: white;
+}
+article .form textarea {
+  min-height: 140px;
+  resize: none;
+}
+article .form-img {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 400px;
+  order: 2;
+}
+article .form-img div {
+  padding: 10px;
+}
+article .img-conteiner {
+  margin: auto;
+}
+article .img-conteiner div {
+  border-radius: 50%;
+  background-color: #1f82f3;
+  text-align: center;
+  padding: 40px;
+}
+article .form-img img {
+  width: 90%;
+  margin: auto;
+}
+article .form input[type=submit] {
+  background-color: #1f82f3;
+  border-bottom: none;
+  padding: 12px;
+}
+article .form input[type=submit] :hover {
+  background-color: #1f82f3;
+  border-bottom: none;
+  padding: 12px;
+}
+article .form input[type=submit] :focus {
+  background: #1f82f3;
+}
+article .pregunta {
+  display: flex;
+  justify-content: center;
+  color: #610505;
+  font-size: 50px;
+}
+article .texto-form {
+  font-size: 22px;
+  color: #222;
+}
+article .iframe {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+article .maps {
+  width: 320px;
+  height: 320px;
+}
+article .spotify {
+  width: 320px;
+  height: 320px;
+}
+
+main .quienessomos, main .quienessomos-container, main .quienessomos-nombre, main .nombre, main .descripcion, main .actividades, main .levantamiento, main .crossfit, article .texto-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 20px 0 0 0;
+  background: linear-gradient(to top, #0074f8, #d1d1d1);
+}
+footer .contacto {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+main .quienessomos, main .quienessomos-container, main .quienessomos-nombre, main .nombre, main .descripcion, main .actividades, main .levantamiento, main .crossfit, article .texto-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,6 +267,14 @@ body {
   background-color: #d1d1d1;
   font-family: lobster, cursive;
   overflow-x: hidden;
+}
+
+.agrandar {
+  transition: all 0.6s;
+}
+
+.agrandar:hover {
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

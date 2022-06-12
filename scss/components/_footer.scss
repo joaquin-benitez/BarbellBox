@@ -1,0 +1,17 @@
+@import "../base/colors";
+@import "../base/extends";
+@import"../base/listas";
+
+
+footer{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    background: linear-gradient(to top, $colorprimario2, $colorfondo);
+    .contacto{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+}
+           
+}

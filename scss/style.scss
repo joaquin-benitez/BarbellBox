@@ -1,8 +1,12 @@
 @import "components/header";
 @import "components/main";
+@import "components/article";
+@import "components/footer";
 @import"base/colors";
 @import"base/listas";
 @import"base/extends";
+@import"base/mixins";
+
 
 
 
@@ -21,3 +25,13 @@ body{
     font-family: lobster, cursive;
     overflow-x: hidden;  
  }
+
+ .agrandar{
+    transition: all 0.6s;
+  }
+  
+  .agrandar:hover{
+    transform: scale(1.5);
+  }
+
+ 
