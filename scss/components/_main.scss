@@ -46,6 +46,7 @@ main{
         color: $colortext;
         font-size: nth($encabezados,2);
         @extend %flexcenter;
+        text-align: center;
     
     }
      

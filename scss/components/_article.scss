@@ -161,12 +161,14 @@ article{
         justify-content: center;
         color: $colorsecundario;
         font-size: nth($encabezados,1);
+        text-align: center;
     }
     
     .texto-form{
         @extend %flexcenter;
         font-size: nth($encabezados,2);
         color: $colortext;
+        text-align: center;
     }
     
     .iframe{

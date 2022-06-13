@@ -60,6 +60,7 @@ main .nombre {
 main .descripcion {
   color: #222;
   font-size: 22px;
+  text-align: center;
 }
 main .actividades {
   width: 100%;
@@ -209,10 +210,12 @@ article .pregunta {
   justify-content: center;
   color: #610505;
   font-size: 50px;
+  text-align: center;
 }
 article .texto-form {
   font-size: 22px;
   color: #222;
+  text-align: center;
 }
 article .iframe {
   display: flex;
@@ -244,8 +247,11 @@ footer {
 }
 footer .contacto {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
+}
+footer .contacto .iconocontact {
+  margin: 0.2rem;
 }
 
 main .quienessomos, main .quienessomos-container, main .quienessomos-nombre, main .nombre, main .descripcion, main .actividades, main .levantamiento, main .crossfit, article .texto-form {

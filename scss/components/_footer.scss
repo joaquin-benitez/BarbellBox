@@ -10,8 +10,11 @@ footer{
     background: linear-gradient(to top, $colorprimario2, $colorfondo);
     .contacto{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         list-style-type: none;
+        .iconocontact{
+            margin: 0.2rem;
+        }
 }
            
 }
