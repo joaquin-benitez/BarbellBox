@@ -123,8 +123,9 @@ article .photo-profes {
   }
 }
 article .inscripcion-container {
-  margin-top: 16rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
+  padding-top: 5rem;
 }
 article .form-conteiner {
   display: flex;
@@ -132,7 +133,7 @@ article .form-conteiner {
   flex-wrap: wrap;
   justify-content: center;
   background: #222;
-  margin: 10rem 15rem;
+  margin: 5rem 15rem;
   padding: 20px;
   border: 15px solid #000;
   outline: 3px solid #610505;
@@ -211,11 +212,13 @@ article .pregunta {
   color: #610505;
   font-size: 50px;
   text-align: center;
+  margin-top: 5rem;
 }
 article .texto-form {
   font-size: 22px;
   color: #222;
   text-align: center;
+  margin-top: 3rem;
 }
 article .iframe {
   display: flex;

@@ -1,0 +1,1 @@
+Damian como te va, te dejo el trabajo aplicando los visto en sass y seo.Utilice meta description, keywords y de protocolo open graph (titulo, url y descripcion).Cambie practicamente todas las imagenes a formato webp. Ademas extendi el sass a toda la pag utilizando componentes(header,main,footer etc) y bases como por ejemplo lista de colores fontsize, extends y mixins.

@@ -50,11 +50,12 @@ article{
     
     }
     
-    
     .inscripcion-container{ 
-        margin-top: 16rem;
-        margin-bottom: 3rem;
-    }
+          margin-top: 10rem;
+          margin-bottom: 3rem;
+          padding-top: 5rem;
+    
+     }
     
     .form-conteiner {
         display: flex;
@@ -62,7 +63,7 @@ article{
         flex-wrap: wrap;
         justify-content: center;
         background: #222;
-        margin: 10rem 15rem;
+        margin: 5rem 15rem;
         padding: 20px;
         border: 15px solid #000;
         outline: 3px solid $colorsecundario;
@@ -162,6 +163,7 @@ article{
         color: $colorsecundario;
         font-size: nth($encabezados,1);
         text-align: center;
+        margin-top: 5rem;
     }
     
     .texto-form{
@@ -169,6 +171,7 @@ article{
         font-size: nth($encabezados,2);
         color: $colortext;
         text-align: center;
+        margin-top: 3rem;
     }
     
     .iframe{
