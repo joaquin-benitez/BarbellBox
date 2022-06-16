@@ -110,11 +110,21 @@ article .photo-profes {
   width: 460px;
   height: 460px;
   margin-top: 0.5rem;
+  border: #1f82f3 solid 2px;
+  transition: all 1s;
+}
+article .photo-profes:hover {
+  transform: scale(1.1);
 }
 @media screen and (max-width: 550px) {
   article .photo-profes {
     width: 320px;
     height: 320px;
+    transform: none;
+    transition: none;
+  }
+  article .photo-profes:hover {
+    transform: none;
   }
 }
 article .inscripcion-container {

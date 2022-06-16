@@ -36,12 +36,23 @@ article{
     
     .photo-profes{
         @include widthheight (460px, 460px);
-        margin-top: 0.5rem;      
+        margin-top: 0.5rem;
+        border: $colorprimario solid 2px;
+        transition: all 1s;
+
+        &:hover{
+            transform: scale(1.1);
+        }      
     }
     
     @media screen and (max-width: 550px){
         .photo-profes{
             @include widthheight (320px, 320px);
+            transform: none;
+            transition: none;
+            &:hover{
+                transform: none
+            } 
     
         }
     
